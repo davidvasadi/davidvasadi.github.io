@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strand</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>STRAND</h1>
+            <img class="imgnav" src="img/header.jpg" alt="valami kep">
+        </header>
+        <nav>
+            <a href="#1">Regiszráció</a>
+            <a href="#2">Balaton</a>
+            <a href="#3">Tisza-tó</a>
+            <a href="#4">Szelídi-tó</a>
+        </nav>
+        <div class="row">
+            <div class="left-column">
+                <aside>
+                    <form action="" method="post">
+                        <h3 id="1">Kérem töltse ki a jelentkezési űrlapot</h3>
+                        <label for="name">Név</label> <br>
+                        <input type="text" name="name" id="name" required placeholder="Benő Béla"> <br>
+
+
+                        <label for="email"> E-mail</label>
+                        <input type="email" name="email" id="email" required placeholder="benobecike@prooktatas.hu">
+                        <br>
+
+
+                        <label for="phonenumber">Telefon</label>
+                        <input type="tel" name="phonenumber" id="phonenumber" required placeholder="+36901234567"
+                            maxlength="12" ><br>
+
+                        <label for="lake">Milyen tó érdekli?</label><br>
+                        <select name="lake" id="lake" multiple>
+                            <option value="Balaton">Balaton</option>
+                            <option value="Tisza-tó">Tisza-tó</option>
+                            <option value="Szelidi-tó">Szelidi-tó</option></select><br>
+
+                        <label for="accomodation">Milyen szállást keresel?</label><br>
+                        <select name="accomodation" id="accomodation">
+                            <option value=""></option>
+                            <option value=" hotel">Szálloda</option>
+                            <option value="camping">Kemping</option>
+                            <option value="other">Egyéb</option></select>
+                        <label for="service">Milyen ellátás legyen ?</label><br>
+                        <select name="service" id="service">
+                            <option value=""></option>
+                            <option value="full">Teljes</option>
+                            <option value="half">Fél panzió</option>
+                            <option value="onlybreakfast">Csak reggeli</option>
+                            <option value="nothing">Nem kérek ellátást</option>
+                        </select> <br>
+
+                        <textarea name="textarea" id="textarea" cols="20" rows="5 placeholder="
+                            Megjegyzés">Megjegyzés</textarea><br>
+                        <input type="submit" value="Küldés">
+                    </form>
+                </aside>
+            </div>
+            <div class=" right-column">
+                <div class="section">
+                    <div class="section1">
+                        <section>
+                            <h2 id="2">Balaton</h2>
+                            <img class="imgsection" src="img/balaton.jpg" alt="Blahaton">
+                            <p>A Balaton (költői nevén „a magyar tenger”, becenevén Balcsi, németül: Plattensee,
+                                latinul: Lacus Pelso, horvátul: Blatno jezero) tó a Dunántúlon, Közép-Európa legnagyobb
+                                tava, Magyarország vízrajzának meghatározó eleme. Könnyen felmelegedő, sekély vize
+                                kiválóan
+                                alkalmassá teszi a fürdésre és sportolásra, élővilága rendkívül gazdag, a táj változatos
+                                vulkanikus kúpjaival sok tekintetben egyedi.
+
+                                Típusa geológiailag a Velencei-tóhoz hasonlóan tektonikus eredetű, sekély vizű ároktó.
+                                77 km
+                                hosszú, legkisebb szélessége Tihanynál 1,5 km, legnagyobb 12,7 km Balatonvilágos és
+                                Balatonalmádi között,átlagos szélessége 7,7 km, felülete 600 km².Legmélyebb pontja a
+                                Tihanyi-szoros legmélyebb árkában az úgynevezett a „Tihanyi-kút”, ahol a tó medre
+                                11-12,5
+                                méter mélyen van. Más forrás szerint a kút mélysége 10,67 méter. A Szántód-Tihany
+                                kompjárat útvonalától mintegy 100-150 méterre keletre, a parttól körülbelül 300 méterre
+                                van.
+
+                                Az 59 800 hektár területen fekvő vizes élőhely keleti medencéjét a Tihanyi-félsziget
+                                választja el a tó többi részétől. Déli partjánál medre sekélyebb. Északi oldalán
+                                található a
+                                badacsonyi borvidék és a Tapolcai-medence, jellegzetes vulkáni tanúhegyeivel.
+
+                            </p>
+                        </section>
+                    </div>
+                    <div class="section2">
+                        <section>
+                            <h2 id="3">Tisza-tó</h2>
+                            <img class="imgsection" src="img/tisza-to.jpg" alt="Tisza">
+                            <p>A tó feltöltése után magyar turisták kezdték el látogatni a tavat, mert sokkal olcsóbb
+                                volt a
+                                Balatonnál. Megkezdődött a falusi turizmus, a tó körül kempingek, szállodák, strandok
+                                épültek. A part mentén hat szabadstrand, Tiszafüreden pedig termálfürdők kínálnak
+                                fürdési
+                                lehetőséget. Abádszalók környékén a vízi sportok széles skálája gyakorolható, beleértve
+                                motoros vízi sportokat is. A horgászat a szabályok betartása mellett engedélyezett.
+
+                                A Tisza-tó vadvízi világa gyalog, kerékpárral, lóháton és csónakkal is bejárható. A
+                                Tisza-tavi madárrezervátum védett terület, csak vezetővel látogatható.
+
+                                2012-ben nyílt meg Poroszlón a Tisza-tavi Ökocentrum, mely interaktív módon mutatja be a
+                                Tisza-tó és a Tisza-völgy természeti értékeit és élővilágát. </p>
+                        </section>
+                    </div>
+                    <div class="section3">
+                        <section>
+                            <h2 id="4">Szelidi-tó</h2>
+                            <img class="imgsection" src="img/szelidi-to.jpeg" alt="Szelidito">
+                            <p>A tó a nevét a víz közvetlen közelében fekvő faluról, illetve annak pusztulása után a
+                                közelben elterülő szántóföldi művelésre alkalmas Szelid pusztáról kapta. Szelid falucska
+                                a
+                                török adóösszeírások szerint az 1540-es években 20-25 családból állt (kb. 100 fő),
+                                eszerint
+                                átlagos alföldi magyar falu lehetett. A 16. század második felében elpusztult; határát
+                                onnantól, mint pusztát mindig a patajiak művelték és mindig Patajhoz tartozott.
+
+                                A tó nevét legendák is magyarázzák. Az egyik szerint Szelid neve a közeli Várdomb
+                                erődítményével és a török hódoltság harcaival függhet össze, ugyanis a török csapatok a
+                                magyar túlerőt látva, megállásra és kompromisszumokra kényszerültek, 'megszelídültek'
+                                ezen a
+                                területen. Egy másik legenda szerint Bence vitéz úgy meghajszolta lovait, hogy azok
+                                patái
+                                elvástak. De miután a lovak hosszasan a tó vizében állva ittak, sebeik gyorsan rendbe
+                                jöttek. A legvalószínűbb, hogy a tó neve egyáltalán nincs összefüggésben a szelíd
+                                melléknévvel. Minden bizonnyal a szel magyar igetőből származik.
+
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>Minden jog fenntartva © 2022 - Vasadi Dávid</footer>
+    </div>
+</body>
+
+</html>
